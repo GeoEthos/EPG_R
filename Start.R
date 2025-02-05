@@ -9,9 +9,7 @@ options(scipen=999)
 # Get time and date  ------------------------
 DateAndTime<-paste(as.POSIXct(strptime(Sys.time(), "%Y-%m-%d %H:%M:%S")))
 Date<-paste(as.POSIXct(strptime(Sys.time(), "%Y-%m-%d")))
-#### Root folder  ------------------------
-# RootFld<-file.path("P:/7_ENF_JEUN_SOC/08_Ecoles/06_Transports_scol/Organisation_transports_scolaires/Logiciel")
-# RootFld<-file.path("D:/kdrive/EPG_APP_TSP_DEV")
+#### Root folder in Parametres_OEJS.R ------------------------
 #### R scripts home folder  ------------------------
 RScriptFld<-file.path(RootFld,"SCRIPTS")
 #### R system scripts folder  ------------------------
